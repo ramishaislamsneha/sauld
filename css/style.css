@@ -1,0 +1,110 @@
+/* Common Css Start */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+
+    }
+  
+.container{
+ width: 1320px;
+ margin: 0 auto;
+ 
+}
+
+
+ol,ul{
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* Common Css End */
+
+/* Header Part Start */
+#headerPart{
+  padding: 50px 0;
+border-bottom: 2px solid #eeeeee15;
+background: #222831;
+
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu ul{
+  display: flex;
+  gap: 48px;
+}
+
+.menu ul a li{
+  font-weight: 400;
+  font-size: 18px;
+  color: #eeeeee;
+}
+.menu ul li:hover{
+  border-bottom: 2px solid white;
+}
+/* Header Part End */
+/* banner part start here */
+#bannerPart{
+    padding-top: 163px;
+    padding-bottom: 73px;
+    background: #222831;
+    
+}
+.bannerContent{
+  display: flex;
+  gap:250px;
+  position: relative;
+}
+.bannerContentLeft{
+  margin-top: 43px;
+  margin-left: 60px;
+}
+.bannerContent .icon{
+  position: absolute;
+  top: 105px;
+  left: -30px;
+
+}
+
+.bannerContentLeft h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 106px;
+  color: #eeeeee;
+  width: 589px;
+  margin-bottom: 48px;
+}
+
+.bannerContentLeft h1 samp{
+  color: #00adb5;
+
+}
+.bannerBtn{
+  display: flex;
+  gap:24px;
+}
+.bannerBtn button{
+  background: #00adb5;
+  padding: 10px 32px;
+  border: none;
+  border-radius: 24px;
+  
+}
+.bannerBtn button a{
+  font-weight: 700;
+  font-size: 18px;
+  color: #eeeeee;
+  text-shadow: 0px 4px 4px #000000;
+}
+.bannerBtn button:hover{
+  background-color: rgba(57, 62, 70, 0.75);
+  transition: all linear .3s;
+}
+
+/* banner part start here */
