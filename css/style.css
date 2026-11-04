@@ -102,6 +102,10 @@ background: #222831;
   color: #eeeeee;
   text-shadow: 0px 4px 4px #000000;
 }
+
+.bannerBtn button .icon2{
+  color:#eeeeee;
+}
 .bannerBtn button:hover{
   background-color: rgba(57, 62, 70, 0.75);
   transition: all linear .3s;
