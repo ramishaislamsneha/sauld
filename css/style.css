@@ -9,6 +9,7 @@
 .container{
  width: 1320px;
  margin: 0 auto;
+ box-sizing: border-box;
  
 }
 
@@ -81,7 +82,7 @@ background: #222831;
   margin-bottom: 48px;
 }
 
-.bannerContentLeft h1 samp{
+.bannerContentLeft h1 span{
   color: #00adb5;
 
 }
@@ -112,3 +113,82 @@ background: #222831;
 }
 
 /* banner part start here */
+/* about part start here */
+#aboutPart {
+  padding-top: 230px;
+  padding-bottom: 69px;
+  background: #222831;
+  }
+.aboutContent{
+  display: flex;
+  margin: 0 auto;
+  gap: 380px;
+  text-align: center;
+  border-bottom: 2px solid #eeeeee;
+
+ 
+  }
+
+.aboutContentLeft{
+  font-weight: 400;
+  font-size: 18px;
+  color: #eeeeee;
+  position: relative;
+}
+
+.aboutContentLeft .music{
+  position: absolute;
+  top: -135px;
+  left: 10px;
+}
+.aboutContentLeft .light{
+  position: absolute;
+  top: -15px;
+  left: 380px;
+
+}
+.aboutContentLeft .arrow{
+  position: absolute;
+  top: 350px;
+  left: 170px;
+
+}
+
+
+.aboutContentLeft h1{
+  font-weight: 700;
+  font-size: 64px;
+  color: #eeeeee;
+}
+.aboutContentLeft h1 span{
+color: #00adb5;
+}
+.aboutContentLeft p{
+  font-weight: 400;
+  font-size: 18px;
+  color: #eeeeee;
+  width: 389px;
+}
+.blankdiv{
+  padding: 66px 0;
+  background: #222831;
+  width: 100%;
+  
+}
+#workPart{
+  padding: 269px 0;
+  background-image: url(../images/Projects\ Page.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container h2{
+  font-weight: 700;
+  font-size: 64px;
+  color: #eeeeee;
+}
+ .container h2 span{
+color: #00adb5;}
+
+
+/* about part end here */
